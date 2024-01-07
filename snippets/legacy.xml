@@ -71,6 +71,9 @@
 	<remove-project name="LineageOS/android_system_core" />
 	<project name="android_system_core" path="system/core" remote="legacy" />
 
+	<remove-project name="LineageOS/android_external_libvpx" />
+	<project name="crdroidandroid/android_external_libvpx" path="external/libvpx" revision="12.1" />
+
 	<!-- Features -->
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
