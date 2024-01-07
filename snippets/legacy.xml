@@ -86,5 +86,5 @@
 	<remove-project name="LineageOS/android_packages_overlays_Lineage" />
 	<project name="android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="legacy" />
 
-	<project name="crdroidandroid/android_packages_apps_GameSpace" path="packages/apps/GameSpace" revision="12.1" />
+	<project name="android_packages_apps_GameSpace" path="packages/apps/GameSpace" remote="legacy" />
 </manifest>
