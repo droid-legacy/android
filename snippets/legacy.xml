@@ -91,4 +91,20 @@
 	<!-- Face Unlock -->
 	<project path="external/yifan" name="LMODroid/platform_external_yifan" revision="thirteen" />
 	<project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" revision="thirteen" />
+
+	<!-- Charging Control Hal -->
+	<remove-project name="LineageOS/android_lineage-sdk" />
+	<project name="android_lineage-sdk" path="lineage-sdk" remote="legacy" />
+
+	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
+	<project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="legacy" />
+
+	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+	<project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="legacy" />
+
+	<remove-project name="LineageOS/android_packages_apps_LineageParts" />
+	<project name="android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="legacy" />
+
+	<remove-project name="LineageOS/android_system_sepolicy" />
+	<project name="android_system_sepolicy" path="system/sepolicy" remote="legacy" />
 </manifest>
