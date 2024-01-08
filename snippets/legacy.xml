@@ -91,6 +91,9 @@
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 	<project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="legacy" />
 
+	<remove-project name="LineageOS/android_packages_apps_Jelly" />
+	<project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="legacy" />
+
 	<!-- Face Unlock -->
 	<project path="external/yifan" name="LMODroid/platform_external_yifan" revision="thirteen" />
 	<project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" revision="thirteen" />
