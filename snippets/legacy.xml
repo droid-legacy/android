@@ -83,6 +83,12 @@
 	<remove-project name="LineageOS/android_packages_apps_Etar" />
 	<project name="crdroidandroid/android_packages_apps_Etar" path="packages/apps/Etar" revision="12.1" />
 
+	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+	<project name="crdroidandroid/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" revision="12.1" />
+
+	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
+	<project name="crdroidandroid/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="12.1" />
+
 	<!-- Features -->
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
