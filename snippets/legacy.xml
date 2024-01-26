@@ -22,6 +22,9 @@
 	  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
 
+	<remove-project name="LineageOS/android_bootable_recovery" />
+	<project name="android_bootable_recovery" path="bootable/recovery" remote="legacy" />
+
 	<!-- DTB Tool -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
