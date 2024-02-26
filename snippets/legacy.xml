@@ -81,4 +81,8 @@
 	<!-- Keyboard -->
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
+
+	<!-- Launcher -->
+	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
 </manifest>
