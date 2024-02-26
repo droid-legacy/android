@@ -36,6 +36,12 @@
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
+	<remove-project name="LineageOS/android_kernel_configs" />
+	<project name="droid-legacy/android_kernel_configs" path="kernel/configs" />
+
+	<remove-project name="LineageOS/android_hardware_interfaces" />
+	<project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
+
 	<!-- cgroup Patches -->
 	<remove-project name="LineageOS/android_system_core" />
 	<project name="droid-legacy/android_system_core" path="system/core" />
