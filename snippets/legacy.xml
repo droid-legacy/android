@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- manifest -->
+	<remove-project name="LineageOS/android" />
+	<project name="droid-legacy/android" path="android" />
+
+	<remove-project name="LineageOS/android_build" />
+	<project name="droid-legacy/android_build_make" path="build/make" >
+	  <copyfile src="core/root.mk" dest="Makefile" />
+	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+	  <linkfile src="core" dest="build/core" />
+	  <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	  <linkfile src="target" dest="build/target" />
+	  <linkfile src="tools" dest="build/tools" />
+	</project>
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
+
+	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+</manifest>

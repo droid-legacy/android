@@ -1014,5 +1014,6 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/legacy.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>
