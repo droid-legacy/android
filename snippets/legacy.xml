@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- manifest -->
+	<remove-project name="LineageOS/android" />
+	<project name="droid-legacy/android" path="android" groups="lineage" />
+
+	<remove-project name="LineageOS/android_build" />
+	<project name="droid-legacy/android_build_make" path="build/make" groups="lineage" >
+	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+	  <linkfile src="core" dest="build/core" />
+	  <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	  <linkfile src="target" dest="build/target" />
+	  <linkfile src="tools" dest="build/tools" />
+	</project>
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" groups="lineage" />
+
+	<remove-project name="LineageOS/android_packages_apps_Launcher3" />
+	<project name="droid-legacy/android_packages_apps_Launcher3" path="packages/apps/Launcher3" groups="lineage" />
+
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
+
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
+</manifest>
