@@ -77,4 +77,8 @@
 
 	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
 	<project name="droid-legacy/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
+
+	<!-- Keyboard -->
+	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 </manifest>
