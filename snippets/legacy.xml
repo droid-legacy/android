@@ -8,7 +8,7 @@
 	<project name="droid-legacy/android" path="android" />
 
 	<!-- Patches -->
-	<remove-project name="platform/system/netd" />
+	<remove-project name="LineageOS/android_system_netd" />
 	<project name="android_system_netd" path="system/netd" remote="legacy" />
 
 	<remove-project name="platform/system/bpf" />
