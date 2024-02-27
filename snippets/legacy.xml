@@ -85,4 +85,7 @@
 	<!-- Launcher -->
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+
+	<remove-project name="LineageOS/android_lineage-sdk" />
+	<project name="droid-legacy/android_lineage-sdk" path="lineage-sdk" />
 </manifest>
