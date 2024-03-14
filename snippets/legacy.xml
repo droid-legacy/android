@@ -83,4 +83,8 @@
 
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" />
+
+	<!-- Adblock -->
+	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
+	<project name="droid-legacy/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 </manifest>
