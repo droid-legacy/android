@@ -80,4 +80,7 @@
 	<!-- Launcher -->
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" />
 </manifest>
