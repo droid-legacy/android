@@ -53,6 +53,9 @@
 	<remove-project name="LineageOS/android_hardware_interfaces" />
 	<project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
 
+        <remove-project name="LineageOS/android_hardware_lineage_compat" />
+        <project name="droid-legacy/android_hardware_lineage_compat" path="hardware/lineage/compat" />
+
 	<!-- cgroup Patches -->
 	<remove-project name="LineageOS/android_system_core" />
 	<project name="droid-legacy/android_system_core" path="system/core" />
