@@ -38,6 +38,9 @@
 	<remove-project name="LineageOS/android_hardware_interfaces" />
 	<project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
 
+	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+	<project name="droid-legacy/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
+
 	<!-- DTB Tool -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
