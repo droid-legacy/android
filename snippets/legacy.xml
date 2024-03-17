@@ -18,7 +18,6 @@
 	  <linkfile src="tools" dest="build/tools" />
 	</project>
 
-
 	<!-- DTB Tool -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
@@ -31,9 +30,6 @@
 
 	<remove-project name="LineageOS/android_packages_modules_adb" />
 	<project name="android_packages_modules_adb" path="packages/modules/adb" remote="legacy" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" revision="lineage-20.0-caf" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
