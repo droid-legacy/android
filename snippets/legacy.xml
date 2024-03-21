@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/LineageOS-UL"
-		revision="lineage-21.0" />
-
 	<!-- manifest -->
 	<remove-project name="LineageOS/android" />
 	<project name="droid-legacy/android" path="android" />
@@ -23,22 +19,19 @@
 
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_system_netd" />
-	<project name="android_system_netd" path="system/netd" remote="legacy" />
+	<project name="LineageOS-UL/android_system_netd" path="system/netd" />
 
 	<remove-project name="LineageOS/android_system_bpf" />
-	<project name="android_system_bpf" path="system/bpf" remote="legacy" />
+	<project name="LineageOS-UL/android_system_bpf" path="system/bpf" />
 
 	<remove-project name="LineageOS/android_packages_modules_adb" />
-	<project name="android_packages_modules_adb" path="packages/modules/adb" remote="legacy" />
+	<project name="LineageOS-UL/android_packages_modules_adb" path="packages/modules/adb" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
+	<project name="LineageOS-UL/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 
 	<remove-project name="platform/packages/modules/NetworkStack" />
-	<project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="legacy" />
-
-	<remove-project name="platform/frameworks/libs/net" />
-	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
+	<project name="LineageOS-UL/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
@@ -60,9 +53,6 @@
 	<project name="droid-legacy/android_system_core" path="system/core" />
 
 	<!-- Optimizations -->
-	<!-- remove-project name="platform/art" />
-	<project name="droid-legacy/android_art-1" path="art" / -->
-
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
 
@@ -70,7 +60,7 @@
 	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" />
 
 	<remove-project name="platform/external/jemalloc_new" />
-	<project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="legacy" />
+	<project name="LineageOS-UL/android_external_jemalloc_new" path="external/jemalloc_new" />
 
 	<remove-project name="LineageOS/android_bionic" />
 	<project name="droid-legacy/android_bionic" path="bionic" />
