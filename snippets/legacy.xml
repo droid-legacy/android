@@ -14,6 +14,12 @@
 	  <linkfile dest="build/tools" src="tools" />
 	</project>
 
+	<remove-project name="LineageOS/android_build_soong" />
+	<project path="build/soong" name="droid-legacy/android_build_soong" >
+	  <linkfile dest="Android.bp" src="root.bp" />
+	  <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+	</project>
+
 	<!-- DTB Tool -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
