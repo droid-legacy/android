@@ -78,4 +78,11 @@
 	<!-- Adblock -->
 	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
 	<project name="droid-legacy/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
+
+	<!-- RIL -->
+	<remove-project name="LineageOS/android_packages_services_Telephony" />
+	<project name="LineageOS-UL/android_packages_services_Telephony" path="packages/services/Telephony" />
+
+	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
+	<project name="LineageOS-UL/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 </manifest>
