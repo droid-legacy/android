@@ -42,6 +42,9 @@
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
+	<remove-project name="LineageOS/android_packages_overlays_Lineage" />
+	<project name="droid-legacy/android_vendor_addons" path="vendor/addons" />
+
 	<remove-project name="LineageOS/android_kernel_configs" />
 	<project name="droid-legacy/android_kernel_configs" path="kernel/configs" />
 
