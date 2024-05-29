@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/droid-legacy"
-		revision="lineage-19.1" />
-
 	<remove-project name="LineageOS/android" />
-	<project name="android" path="android" remote="legacy" />
+	<project name="droid-legacy/android" path="android" />
 	<remove-project name="LineageOS/android_build" />
-	<project name="android_build" path="build/make" remote="legacy" >
+	<project name="droid-legacy/android_build" path="build/make" >
 	  <copyfile src="core/root.mk" dest="Makefile" />
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -17,66 +13,67 @@
 	  <linkfile src="tools" dest="build/tools" />
 	</project>
 	<remove-project name="LineageOS/android_build_soong" />
-	<project name="android_build_soong" path="build/soong" remote="legacy" >
+	<project name="droid-legacy/android_build_soong" path="build/soong" >
 	  <linkfile src="root.bp" dest="Android.bp" />
 	  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
 
 	<remove-project name="LineageOS/android_bootable_recovery" />
-	<project name="android_bootable_recovery" path="bootable/recovery" remote="legacy" />
+	<project name="droid-legacy/android_bootable_recovery" path="bootable/recovery" />
 
 	<!-- DTB Tool -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_system_netd" />
-	<project name="android_system_netd" path="system/netd" remote="legacy" />
+	<project name="droid-legacy/android_system_netd" path="system/netd" />
 
 	<remove-project name="platform/system/bpf" />
-	<project name="android_system_bpf" path="system/bpf" remote="legacy" />
+	<project name="droid-legacy/android_system_bpf" path="system/bpf" />
 
 	<remove-project name="LineageOS/android_kernel_configs" />
-	<project name="android_kernel_configs" path="kernel/configs" remote="legacy" />
+	<project name="droid-legacy/android_kernel_configs" path="kernel/configs" />
 
 	<remove-project name="platform/packages/modules/NetworkStack" />
-	<project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="legacy" />
+	<project name="droid-legacy/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
 	<remove-project name="LineageOS/android_hardware_interfaces" />
-	<project name="android_hardware_interfaces" path="hardware/interfaces" remote="legacy" />
+	<project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
 
 	<!-- Custom DNS -->
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
-	<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="legacy" />
+	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 
 	<remove-project name="platform/frameworks/libs/net" />
-	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
+	<project name="droid-legacy/android_frameworks_libs_net" path="frameworks/libs/net" />
 
 	<!-- Launcher -->
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<project name="android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="legacy" />
+	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
 
 	<remove-project name="platform/frameworks/libs/systemui" />
-	<project name="android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="legacy" />
+	<project name="droid-legacy/android_frameworks_libs_systemui" path="frameworks/libs/systemui" />
 
 	<remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-	<project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="legacy" />
+	<project name="droid-legacy/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" />
 
 	<!-- Optimizations -->
 	<remove-project name="platform/art" />
-	<project name="android_art-1" path="art" remote="legacy" />
+	<project name="droid-legacy/android_art-1" path="art" />
 
 	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" />
+	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" />
 
 	<remove-project name="LineageOS/android_system_core" />
-	<project name="android_system_core" path="system/core" remote="legacy" />
+	<project name="droid-legacy/android_system_core" path="system/core" />
 
 	<remove-project name="LineageOS/android_external_libvpx" />
 	<project name="crdroidandroid/android_external_libvpx" path="external/libvpx" revision="12.1" />
 
+	<!-- Updated Apps -->
 	<remove-project name="LineageOS/android_packages_apps_Contacts" />
 	<project name="crdroidandroid/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="12.1" />
 
@@ -97,38 +94,34 @@
 
 	<!-- Features -->
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
-	<project name="android_vendor_addons" path="vendor/addons" remote="legacy" />
+        <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+	<project name="droid-legacy/android_vendor_addons" path="vendor/addons" />
 
 	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" />
-
-	<remove-project name="LineageOS/android_packages_overlays_Lineage" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
 
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-	<project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="legacy" />
+	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
 	<remove-project name="LineageOS/android_packages_apps_Jelly" />
-	<project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="legacy" />
+	<project name="droid-legacy/android_packages_apps_Jelly" path="packages/apps/Jelly" />
 
 	<!-- Face Unlock -->
 	<project path="external/yifan" name="LMODroid/platform_external_yifan" revision="thirteen" />
 	<project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" revision="thirteen" />
 
-	<!-- Charging Control Hal -->
+	<!-- Power Hidl -->
 	<remove-project name="LineageOS/android_lineage-sdk" />
-	<project name="android_lineage-sdk" path="lineage-sdk" remote="legacy" />
+	<project name="droid-legacy/android_lineage-sdk" path="lineage-sdk" />
 
 	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
-	<project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="legacy" />
+	<project name="droid-legacy/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 
 	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
-	<project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="legacy" />
-
-	<remove-project name="LineageOS/android_packages_apps_LineageParts" />
-	<project name="android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="legacy" />
+	<project name="droid-legacy/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
-	<project name="android_system_sepolicy" path="system/sepolicy" remote="legacy" />
+	<project name="droid-legacy/android_system_sepolicy" path="system/sepolicy" />
 </manifest>
