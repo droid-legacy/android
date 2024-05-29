@@ -13,9 +13,6 @@
 	<remove-project name="LineageOS/android_packages_modules_adb" />
 	<project name="LineageOS-UL/android_packages_modules_adb" path="packages/modules/adb" />
 
-	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" revision="lineage-20.0-caf" />
-
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="LineageOS-UL/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 
