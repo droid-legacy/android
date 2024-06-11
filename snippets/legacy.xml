@@ -36,6 +36,9 @@
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 
+	<remove-project name="platform/packages/modules/DnsResolver" />
+	<project name="LineageOS-UL/android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" />
+
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="LineageOS-UL/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
