@@ -40,6 +40,9 @@
 	<remove-project name="LineageOS/android_hardware_interfaces" />
 	<project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
 
+	<remove-project name="platform/external/selinux" />
+	<project name="AICP/external_selinux" path="external/selinux" revision="s12.1" />
+
 	<!-- Custom DNS -->
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" />
