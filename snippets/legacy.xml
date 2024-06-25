@@ -93,8 +93,8 @@
 
 	<!-- RIL -->
 	<remove-project name="LineageOS/android_packages_services_Telephony" />
-	<project name="LineageOS-UL/android_packages_services_Telephony" path="packages/services/Telephony" />
+	<project name="droid-legacy/android_packages_services_Telephony" path="packages/services/Telephony" />
 
 	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
-	<project name="LineageOS-UL/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+	<project name="droid-legacy/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 </manifest>
