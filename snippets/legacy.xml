@@ -25,10 +25,10 @@
 
 	<!-- bpf/cgroup Patches -->
 	<remove-project name="LineageOS/android_system_netd" />
-	<project name="LineageOS-UL/android_system_netd" path="system/netd" />
+	<project name="droid-legacy/android_system_netd" path="system/netd" />
 
 	<remove-project name="LineageOS/android_system_bpf" />
-	<project name="LineageOS-UL/android_system_bpf" path="system/bpf" />
+	<project name="droid-legacy/android_system_bpf" path="system/bpf" />
 
 	<remove-project name="LineageOS/android_packages_modules_adb" />
 	<project name="LineageOS-UL/android_packages_modules_adb" path="packages/modules/adb" />
