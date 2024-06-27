@@ -39,6 +39,9 @@
 	<remove-project name="platform/packages/modules/DnsResolver" />
 	<project name="LineageOS-UL/android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" />
 
+	<remove-project name="platform/packages/modules/NetworkStack" />
+	<project name="LineageOS-UL/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
+
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
