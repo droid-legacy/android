@@ -54,9 +54,6 @@
 	<remove-project name="LineageOS/android_hardware_interfaces" />
 	<project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
 
-	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
-	<project name="droid-legacy/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
-
 	<remove-project name="LineageOS/android_system_core" />
 	<project name="droid-legacy/android_system_core" path="system/core" />
 
