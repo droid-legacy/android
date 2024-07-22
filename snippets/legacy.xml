@@ -98,6 +98,7 @@
 	<!-- Features -->
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
+	<project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" revision="lineage-18.1" />
 
         <remove-project name="LineageOS/android_packages_overlays_Lineage" />
 	<project name="droid-legacy/android_vendor_addons" path="vendor/addons" />
