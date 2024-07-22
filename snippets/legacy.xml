@@ -85,7 +85,4 @@
 
 	<remove-project name="LineageOS/android_lineage-sdk" />
 	<project name="droid-legacy/android_lineage-sdk" path="lineage-sdk" />
-
-	<remove-project name="LineageOS/android_hardware_lineage_compat" />
-	<project name="droid-legacy/android_hardware_lineage_compat" path="hardware/lineage/compat" />
 </manifest>
