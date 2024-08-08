@@ -14,14 +14,13 @@
 	<project name="LineageOS-UL/android_packages_modules_adb" path="packages/modules/adb" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="LineageOS-UL/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="LineageOS-UL/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
 	<remove-project name="platform/frameworks/libs/net" />
 	<project name="LineageOS-UL/android_frameworks_libs_net" path="frameworks/libs/net" />
-
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
