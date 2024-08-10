@@ -22,9 +22,6 @@
 	<remove-project name="platform/frameworks/libs/net" />
 	<project name="LineageOS-UL/android_frameworks_libs_net" path="frameworks/libs/net" />
 
-	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
-
 	<remove-project name="LineageOS/android_kernel_configs" />
 	<project name="droid-legacy/android_kernel_configs" path="kernel/configs" />
 
@@ -84,4 +81,11 @@
 
 	<remove-project name="LineageOS/android_lineage-sdk" />
 	<project name="droid-legacy/android_lineage-sdk" path="lineage-sdk" />
+
+	<!-- Gallery -->
+	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
+	<project name="droid-legacy/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="lineage-19.1" />
+
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 </manifest>
