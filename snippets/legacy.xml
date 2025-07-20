@@ -28,4 +28,7 @@
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="droid-legacy/android_system_sepolicy" path="system/sepolicy" />
+
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 </manifest>
