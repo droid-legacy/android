@@ -17,6 +17,9 @@
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" groups="lineage" />
 
+	<remove-project name="LineageOS/android_lineage-sdk" />
+	<project name="droid-legacy/android_lineage-sdk" path="lineage-sdk" groups="lineage" />
+
 	<remove-project name="LineageOS/android_packages_apps_Launcher3" />
 	<project name="droid-legacy/android_packages_apps_Launcher3" path="packages/apps/Launcher3" groups="lineage" />
 
