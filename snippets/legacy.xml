@@ -25,4 +25,7 @@
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
+
+	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+	<project name="droid-legacy/android_packages_inputmethods_LatinIME"  path="packages/inputmethods/LatinIME" groups="lineage" />
 </manifest>
