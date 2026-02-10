@@ -22,7 +22,6 @@
 
 	<remove-project name="LineageOS/android_packages_apps_Launcher3" />
 	<project name="droid-legacy/android_packages_apps_Launcher3" path="packages/apps/Launcher3" groups="lineage" />
-
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
 
@@ -31,4 +30,6 @@
 
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 	<project name="droid-legacy/android_packages_inputmethods_LatinIME"  path="packages/inputmethods/LatinIME" groups="lineage" />
+
+	<project name="droid-legacy/android_vendor_extra" path="vendor/extra" />
 </manifest>
