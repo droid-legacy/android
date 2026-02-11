@@ -25,7 +25,7 @@
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
 	<remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-	<project name="crdroidandroid/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" revision="16.0" />
+	<project name="droid-legacy/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
