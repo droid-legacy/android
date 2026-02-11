@@ -25,13 +25,13 @@
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
 	<remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-	<project name="droid-legacy/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" />
-
-	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
+	<project name="droid-legacy/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 	<project name="droid-legacy/android_packages_inputmethods_LatinIME"  path="packages/inputmethods/LatinIME" groups="lineage" />
+
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
 
 	<project name="droid-legacy/android_vendor_extra" path="vendor/extra" />
 	<remove-project name="LineageOS/android_vendor_lineage" />
