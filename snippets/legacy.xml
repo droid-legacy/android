@@ -34,4 +34,6 @@
 	<project name="droid-legacy/android_packages_inputmethods_LatinIME"  path="packages/inputmethods/LatinIME" groups="lineage" />
 
 	<project name="droid-legacy/android_vendor_extra" path="vendor/extra" />
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" groups="lineage" />
 </manifest>
