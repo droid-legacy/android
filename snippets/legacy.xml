@@ -33,6 +33,9 @@
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
 
+	<remove-project name="LineageOS/android_packages_overlays_Lineage" />
+	<project name="droid-legacy/android_packages_overlays_Lineage" path="packages/overlays/Lineage" groups="lineage" />
+
 	<project name="droid-legacy/android_vendor_extra" path="vendor/extra" />
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" groups="lineage" />
