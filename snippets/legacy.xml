@@ -2,10 +2,10 @@
 <manifest>
 	<!-- manifest -->
 	<remove-project name="LineageOS/android" />
-	<project name="droid-legacy/android" path="android" />
+	<project name="droid-legacy/android" path="android" groups="lineage" />
 
 	<remove-project name="LineageOS/android_build" />
-	<project name="droid-legacy/android_build_make" path="build/make" >
+	<project name="droid-legacy/android_build_make" path="build/make" groups="lineage" >
 	  <copyfile src="core/root.mk" dest="Makefile" />
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,21 +16,21 @@
 	</project>
 
 	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
-	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
-	<project name="droid-legacy/android_system_sepolicy" path="system/sepolicy" />
+	<project name="droid-legacy/android_system_sepolicy" path="system/sepolicy" groups="lineage" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" groups="lineage" />
 
 	<!-- Infra -->
 	<remove-project name="LineageOS/hudson" />
@@ -38,6 +38,6 @@
 	<remove-project name="LineageOS/mirror" />
 	<project name="LineageOS-Revived/mirror" path="lineage/mirror" revision="main" />
 	<remove-project name="LineageOS/lineage_wiki" />
-	<project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" />
+	<project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" groups="lineage" />
 	<project name="LineageOS-Revived/revived_scripts" path="lineage/revived_scripts" revision="main" />
 </manifest>
