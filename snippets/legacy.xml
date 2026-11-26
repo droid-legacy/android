@@ -26,8 +26,6 @@
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
 
-	<remove-project name="LineageOS/android_system_core" />
-	<project name="droid-legacy/android_system_core" path="system/core" groups="lineage" />
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="droid-legacy/android_system_sepolicy" path="system/sepolicy" groups="lineage" />
 
